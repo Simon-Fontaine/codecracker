@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://www.flaticon.com/free-icons/safe-boxs">
+  <a href="https://www.flaticon.com/free-icons/safe-boxs" target="_blank">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
