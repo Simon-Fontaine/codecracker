@@ -21,7 +21,7 @@
 
 ## Demo
 
-![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif?raw=true)
+![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif)
 
 ## Installation
 
@@ -38,7 +38,7 @@
 
 ## Connections
 
-![connections](https://github.com/Simon-Fontaine/codecracker/blob/main/images/connections-nobg.png?raw=true)
+![connections](https://github.com/Simon-Fontaine/codecracker/blob/main/images/connections-nobg.png)
 
 [Correct Pin Layout](https://github.com/Simon-Fontaine/codecracker/blob/main/images/rp2_pinout.png)
 
