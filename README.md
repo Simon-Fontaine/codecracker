@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Code Cracker</h3>
+  <h1 align="center">Code Cracker</h1>
 
   <p align="center">
     Projet Raspberry Pi créé dans le cadre du projet transversal de l'EPHEC
