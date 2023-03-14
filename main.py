@@ -8,7 +8,7 @@ import time
 
 # Variables
 code = [0, 0, 0, 0]
-maxsteps = 30
+MAX_STEPS = 30
 inputs = []
 index = 0
 
@@ -32,13 +32,13 @@ class ledcolors:
     OFF = (0, 0, 0)
 
 # GPIO setup
-rotor = RotaryEncoder(17, 27, max_steps=maxsteps)
+rotor = RotaryEncoder(17, 27, max_steps=MAX_STEPS)
 led = RGBLED(red=10, green=9, blue=11)
 button = Button(22)
 
 # Génération du code
 for i in range(len(code)):
-    code[i] = random.randint(-maxsteps,maxsteps)
+    code[i] = random.randint(-MAX_STEPS,MAX_STEPS)
 
 # Initialisation de la partie
 tprint("Code Cracker","3d_diagonal")
@@ -72,7 +72,7 @@ def ledColor(compteur):
     led.color = ledcolors.YELLOW
   elif compteur == code[index]:
     led.color = ledcolors.GREEN
-  elif abs(compteur) == maxsteps:
+  elif abs(compteur) == MAX_STEPS:
     led.color = ledcolors.OFF
   elif compteur < (code[index] - 10):
     led.color = ledcolors.RED
@@ -81,14 +81,14 @@ def ledColor(compteur):
   else:
     led.color = ledcolors.BLUE
 
-startCompteir = rotor.value * maxsteps
+startCompteir = rotor.value * MAX_STEPS
 ledColor(startCompteir)
 
 def rotated():
   global index
   global code
 
-  compteur = rotor.value * maxsteps
+  compteur = rotor.value * MAX_STEPS
 
   ledColor(compteur)
 
@@ -99,7 +99,7 @@ def confirm():
   global st
   global username
 
-  compteur = rotor.value * maxsteps
+  compteur = rotor.value * MAX_STEPS
 
   if compteur == code[index]:
     inputs.append(compteur)
