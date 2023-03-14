@@ -30,8 +30,27 @@
   apt update
   apt dist-upgrade -y
   apt install -y python3-pip git bpython
+
+  git clone https://github.com/Simon-Fontaine/codecracker.git
+  cd codecracker
   pip install flask art gpiozero
 ```
+
+## Starting App
+
+Pour démarrer l'application, exécutez la commande suivante dans sons dossier
+
+```bash
+  pyhton main.py
+```
+
+## Environment Variables
+
+Ce projet utilise certaines variables, elles sont situées dans le fichier `main.py` et se situent entre les lignes 9 et 14.
+
+`code` (default: [0, 0, 0, 0]) _La longueur du code à trouver_
+
+`MAX_STEPS` (default: 30) _Intervalle de nombres possibles trouver_
 
 ## Authors
 
