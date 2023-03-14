@@ -38,7 +38,7 @@
 
 ## Connections
 
-![connections](https://github.com/Simon-Fontaine/codecracker/blob/main/images/connections.png?raw=true)
+![connections](https://github.com/Simon-Fontaine/codecracker/blob/main/images/connections-nobg.png?raw=true)
 
 [Correct Pin Layout](https://github.com/Simon-Fontaine/codecracker/blob/main/images/rp2_pinout.png)
 
