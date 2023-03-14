@@ -19,6 +19,19 @@
 [![Dependency - gpiozero](https://img.shields.io/badge/dependency-gpiozero-blue?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/gpiozero)
 [![Dependency - flask](https://img.shields.io/badge/dependency-flask-red?logo=flask&logoColor=white)](https://pypi.org/project/flask)
 
+## Table Of Contents
+
+- [Demo](#demo)
+- [Installation](#installation)
+- [Connections](#connections)
+  - [RotaryEncoder](#rotaryencoder)
+  - [RGBLED](#rgbled)
+- [Starting App](#starting-app)
+- [Environment Variables](#environment-variables)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
 ## Demo
 
 ![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif)
