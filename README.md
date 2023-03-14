@@ -21,7 +21,7 @@
 
 ## Demo
 
-![](https://github.com/Simon-Fontaine/codecracker/images/demo.gif)
+![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif)
 
 ## Installation
 
