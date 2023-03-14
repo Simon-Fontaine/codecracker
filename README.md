@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Simon-Fontaine/codecracker/blob/main/logo/safe-deposit.png?raw=true">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo/safe-deposit.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Code Cracker</h3>
