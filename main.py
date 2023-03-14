@@ -56,7 +56,7 @@ Essaiez de trouver {bcolors.BOLD}4{bcolors.ENDC} nombres entre {bcolors.UNDERLIN
 {bcolors.WARNING}Jaune:{bcolors.ENDC} Vous avez cracké le coffre-fort
 """)
 
-input(f"\n{bcolors.HEADER}>> Appuiez sur ENTER pour démarrer votre chrono...{bcolors.ENDC}\n")
+input(f"\n{bcolors.HEADER}>> Appuyez sur ENTER pour démarrer votre chrono...{bcolors.ENDC}\n")
 
 print(f"\n{bcolors.WARNING}Le chrono a démarré !{bcolors.ENDC}\n")
 
@@ -68,7 +68,9 @@ def ledColor(compteur):
   global index
   global code
 
-  if compteur == code[index]:
+  if len(inputs) == len(code):
+    led.color = ledcolors.YELLOW
+  elif compteur == code[index]:
     led.color = ledcolors.GREEN
   elif abs(compteur) == maxsteps:
     led.color = ledcolors.OFF
@@ -106,7 +108,7 @@ def confirm():
     if len(inputs) == len(code):
       newtime = '%.2f' % (time.time() - st)
       newtime = float(newtime)
-
+      
       print(f"{bcolors.OKGREEN}Vous avez ouvert le coffre-fort !{bcolors.ENDC}\n{bcolors.OKCYAN}Combinaison:{bcolors.ENDC} {code}")
       
       new_player = {'name': f'{username}', 'time': newtime}
@@ -144,6 +146,10 @@ def confirm():
       print(f"3. {bcolors.FAIL}{sorted_times[2]['name']}{bcolors.ENDC} - {sorted_times[2]['time']} secondes")
       print(f"4. {sorted_times[3]['name']} - {sorted_times[3]['time']} secondes")
       print(f"5. {sorted_times[4]['name']} - {sorted_times[4]['time']} secondes")
+
+      ledColor(compteur)
+
+      input(f"\n{bcolors.HEADER}>> Appuyez sur ENTER pour quitter le programme...{bcolors.ENDC}\n")
 
       exit()
   elif compteur != code[index]:

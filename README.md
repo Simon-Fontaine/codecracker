@@ -21,7 +21,7 @@
 
 ## Demo
 
-TODO: add gif
+![](https://github.com/Simon-Fontaine/codecracker/images/demo.gif)
 
 ## Installation
 
