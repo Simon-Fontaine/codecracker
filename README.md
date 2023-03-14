@@ -1,7 +1,7 @@
 <br/>
-<p align="center">
-  <a href="https://github.com/Simon-Fontaine/codecracker/blob/main/logo/safe-deposit.png?raw=true">
-    <img src="logo/safe-deposit.png" alt="Logo" width="80" height="80">
+  <p align="center">
+  <a href="https://www.flaticon.com/free-icons/safe-boxs">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Code Cracker</h3>
@@ -18,33 +18,31 @@
 [![Dependency - art](https://img.shields.io/badge/dependency-art-orange?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/art)
 [![Dependency - gpiozero](https://img.shields.io/badge/dependency-gpiozero-blue?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/gpiozero)
 [![Dependency - flask](https://img.shields.io/badge/dependency-flask-red?logo=flask&logoColor=white)](https://pypi.org/project/flask)
+
 ## Demo
 
 TODO: add gif
 
-
 ## Installation
 
-```bash  
+```bash
   sudo su
   apt update
   apt dist-upgrade -y
   apt install -y python3-pip git bpython
   pip install flask art gpiozero
 ```
-    
+
 ## Authors
 
 - [@Simon-Fontaine](https://github.com/Simon-Fontaine)
 - [@Bistouflere](https://github.com/Bistouflere)
 - [@bpatureau](https://github.com/bpatureau)
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
 ## Acknowledgements
 
- - [Safe box icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/safe-boxs)
+- [Safe box icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/safe-boxs)
