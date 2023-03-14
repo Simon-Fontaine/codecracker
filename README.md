@@ -1,5 +1,5 @@
 <br/>
-  <p align="center">
+<p align="center">
   <a href="https://www.flaticon.com/free-icons/safe-boxs">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -21,7 +21,7 @@
 
 ## Demo
 
-![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif)
+![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif?raw=true)
 
 ## Installation
 
@@ -35,6 +35,27 @@
   cd codecracker
   pip install flask art gpiozero
 ```
+
+## Connections
+
+![connections](https://github.com/Simon-Fontaine/codecracker/blob/main/images/connections.png?raw=true)
+
+[Correct Pin Layout](https://github.com/Simon-Fontaine/codecracker/blob/main/images/rp2_pinout.png)
+
+### RotaryEncoder
+
+- `CLK` **[13]** GPIO 27
+- `DT` **[11]** GPIO 17
+- `SW` **[15]** GPIO 22
+- `+` **[1]** 3.3V PWR
+- `GND` **[9]** GND
+
+### RGBLED
+
+- `RED` **[19]** GPIO 10
+- `GREEN` **[21]** GPIO 9
+- `BLUE` **[23]** GPIO 11
+- `GND` **[6]** GND
 
 ## Starting App
 
