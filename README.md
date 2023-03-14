@@ -1,1 +1,35 @@
-# codecracker
+# Code Cracker
+
+Projet Raspberry Pi créé dans le cadre du projet transversal de l'EPHEC
+
+[![license - MIT](https://img.shields.io/badge/license-MIT-green?logo=github&logoColor=white)](https://choosealicense.com/licenses/mit/)
+
+[![langage - pyhton](https://img.shields.io/badge/langage-pyhton-yellow?logo=Python&logoColor=white)](https://www.python.org/)
+
+[![Dependency - art](https://img.shields.io/badge/dependency-art-orange?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/art)
+[![Dependency - gpiozero](https://img.shields.io/badge/dependency-gpiozero-blue?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/gpiozero)
+[![Dependency - flask](https://img.shields.io/badge/dependency-flask-red?logo=flask&logoColor=white)](https://pypi.org/project/flask)
+
+## Demo
+
+TODO: add gif
+
+## Installation
+
+```bash
+  sudo su
+  apt update
+  apt dist-upgrade -y
+  apt install -y python3-pip git bpython
+  pip install flask art gpiozero
+```
+
+## Auteurs
+
+- [@Simon-Fontaine](https://github.com/Simon-Fontaine)
+- [@Bistouflere](https://github.com/Bistouflere)
+- [@bpatureau](https://github.com/bpatureau)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
