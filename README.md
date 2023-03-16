@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://www.flaticon.com/free-icons/safe-boxs" target="_blank">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h1 align="center">Code Cracker</h1>
