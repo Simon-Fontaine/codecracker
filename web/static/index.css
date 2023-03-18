@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2d2d30;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3e3e42;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+h1 {
+  font-family: "Nabla", cursive;
+  text-align: center;
+  font-size: 46px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  margin-top: 10px;
+  width: 150px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid #2d2d30;
+  width: 70%;
+}
+
+input[type="text"] {
+  max-width: 190px;
+  height: 30px;
+  border: 2px solid transparent;
+  outline: none;
+  border-bottom: 2px solid #3f3f3f;
+  caret-color: #3f3f3f;
+  background-color: #212121;
+  padding: 5px;
+  transition: 0.5s linear;
+  letter-spacing: 1px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid pink;
+  caret-color: pink;
+  color: pink;
+  box-shadow: 4px 4px 10px #070707;
+}
+
+input[type="text"]:focus::placeholder {
+  color: pink;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+}
+
+input[type="submit"]:focus {
+  border: 2px solid pink;
+  caret-color: pink;
+  color: pink;
+  box-shadow: 4px 4px 10px #070707;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: rgba(37, 37, 38, 0.6);
+  box-shadow: 5px 5px 0px 0px rgba(37, 37, 38, 0.3);
+  border-radius: 5px;
+  width: 800px;
+  margin: 10px auto;
+  max-width: calc(100% - 10px);
+  padding: 20px;
+}
+
+.white {
+  color: white;
+}
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: #007acc;
+}
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+}
+.pink {
+  color: pink;
+}

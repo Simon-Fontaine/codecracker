@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+    <title>Code Cracker</title>
+    {{ turbo() }}
+  </head>
+  <body>
+    <div class="flex-container">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo Code Cracker" />
+      <h1>Code Cracker</h1>
+      <div>
+        <h2>🧭 Informations</h2>
+        <hr />
+        <p>
+          <strong>🎲 Essaiez de trouver 4 nombres entre -30 et 30 !</strong><br /><br />
+          Couleurs:<br />
+          <color class="green">Vert:</color> Nombre correcte<br />
+          <color class="red">Rouge:</color> Nombre incorrecte<br />
+          <color class="blue">Bleu:</color> Mauvais nombre mais proche du bon<br />
+          <color class="orange">Orange:</color> Vous avez cracké le coffre-fort
+        </p>
+        <form method="POST">
+          <label for="name"><color class="pink">Nom: </color></label>
+          <input id="name" placeholder="Votre Nom" name="name" type="text" />
+          <input type="submit" value="Submit" />
+        </form>
+        <p>⏳ Votre chrono démarre dès que vous commencez à tourner le bouton</p>
+      </div>
+      {% include "inputs.html" %} {% include "scores.html" %}
+    </div>
+  </body>
+  <footer>
+    <p>
+      © Copyright 2023 - Code Cracker |
+      <a href="https://github.com/Simon-Fontaine" target="_blank">Simon Fontaine</a> ·
+      <a href="https://github.com/Bistouflere" target="_blank">Timothy Truong</a> ·
+      <a href="https://github.com/bpatureau" target="_blank">Bastien Patureau</a>
+    </p>
+  </footer>
+</html>
