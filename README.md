@@ -1,10 +1,10 @@
 <br/>
 <p align="center">
   <a href="https://www.flaticon.com/free-icons/safe-boxs" target="_blank">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Code Cracker</h3>
+  <h1 align="center">Code Cracker</h1>
 
   <p align="center">
     Projet Raspberry Pi créé dans le cadre du projet transversal de l'EPHEC
