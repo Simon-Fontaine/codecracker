@@ -109,7 +109,7 @@ Elles sont situées dans le fichier [main.py](https://github.com/Simon-Fontaine/
 
 ### Web
 
-Elles sont situées dans le fichier [app.py](https://github.com/Simon-Fontaine/codecracker/blob/main/web/app.py) et se situent entre les lignes 21 et 31.
+Elles sont situées dans le fichier [app.py](https://github.com/Simon-Fontaine/codecracker/blob/main/web/app.py) et se situent entre les lignes 21 et 25.
 
 `code` (default: [0, 0, 0, 0]) _La longueur du code à trouver_
 

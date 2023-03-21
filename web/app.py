@@ -23,6 +23,11 @@ code = [0, 0, 0, 0]
 guess = []
 sorted_times = []
 codeindex = 0
+
+rotor = RotaryEncoder(17, 27, max_steps=MAX_STEPS)
+led = RGBLED(red=10, green=9, blue=11)
+button = Button(22)
+
 compteur = int(rotor.value * MAX_STEPS)  
 confirm_phrase = ""
 sorted_times_phrase = ""
@@ -38,10 +43,6 @@ stop_time = time.time()
 
 for i in range(len(code)):
     code[i] = random.randint(-MAX_STEPS,MAX_STEPS)
-
-rotor = RotaryEncoder(17, 27, max_steps=MAX_STEPS)
-led = RGBLED(red=10, green=9, blue=11)
-button = Button(22)
 
 def reset():
   global code
