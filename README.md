@@ -18,6 +18,7 @@
 [![Dependency - art](https://img.shields.io/badge/dependency-art-orange?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/art)
 [![Dependency - gpiozero](https://img.shields.io/badge/dependency-gpiozero-blue?logo=Raspberry+Pi&logoColor=white)](https://pypi.org/project/gpiozero)
 [![Dependency - flask](https://img.shields.io/badge/dependency-flask-red?logo=flask&logoColor=white)](https://pypi.org/project/flask)
+[![dependency - turbo-flask](https://img.shields.io/badge/dependency-turbo--flask-2ea44f?logo=flask)](https://pypi.org/project/Turbo-Flask/)
 
 ## Table Of Contents
 
@@ -34,7 +35,13 @@
 
 ## Demo
 
-![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo.gif)
+### Console
+
+![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo_console.gif)
+
+### Web
+
+![](https://github.com/Simon-Fontaine/codecracker/blob/main/images/demo_web.gif)
 
 ## Installation
 
@@ -46,7 +53,7 @@
 
   git clone https://github.com/Simon-Fontaine/codecracker.git
   cd codecracker
-  pip install flask art gpiozero
+  pip install flask turbo_flask art gpiozero
 ```
 
 ## Connections
@@ -74,8 +81,16 @@
 
 Pour démarrer l'application, exécutez la commande suivante dans sons dossier
 
+### Console
+
 ```bash
   pyhton main.py
+```
+
+### Web
+
+```bash
+  flask run --host=0.0.0.0
 ```
 
 ## Environment Variables
