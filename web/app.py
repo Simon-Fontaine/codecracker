@@ -8,13 +8,6 @@ from flask import Flask, render_template, request
 from gpiozero import RotaryEncoder, Button, RGBLED
 from turbo_flask import Turbo
 
-
-MAX_STEPS = 30
-
-rotor = RotaryEncoder(17, 27, max_steps=MAX_STEPS)
-led = RGBLED(red=10, green=9, blue=11)
-button = Button(22)
-
 class ledcolors:
     YELLOW = (1, 1, 0.2)
     GREEN = (0, 1, 0) 
@@ -25,6 +18,7 @@ class ledcolors:
 app = Flask(__name__)
 turbo = Turbo(app)
 
+MAX_STEPS = 30
 code = [0, 0, 0, 0]
 guess = []
 sorted_times = []
@@ -44,6 +38,10 @@ stop_time = time.time()
 
 for i in range(len(code)):
     code[i] = random.randint(-MAX_STEPS,MAX_STEPS)
+
+rotor = RotaryEncoder(17, 27, max_steps=MAX_STEPS)
+led = RGBLED(red=10, green=9, blue=11)
+button = Button(22)
 
 def reset():
   global code

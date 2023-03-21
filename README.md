@@ -23,12 +23,18 @@
 ## Table Of Contents
 
 - [Demo](#demo)
+  - [Console](#console)
+  - [Web](#web)
 - [Installation](#installation)
 - [Connections](#connections)
   - [RotaryEncoder](#rotaryencoder)
   - [RGBLED](#rgbled)
 - [Starting App](#starting-app)
+  - [Console](#console-1)
+  - [Web](#web-1)
 - [Environment Variables](#environment-variables)
+  - [Console](#console-2)
+  - [Web](#web-2)
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -95,7 +101,15 @@ Pour démarrer l'application, exécutez la commande suivante dans sons dossier
 
 ## Environment Variables
 
-Ce projet utilise certaines variables, elles sont situées dans le fichier [main.py](https://github.com/Simon-Fontaine/codecracker/blob/main/main.py) et se situent entre les lignes 9 et 14.
+Ce projet utilise certaines variables,
+
+### Console
+
+Elles sont situées dans le fichier [main.py](https://github.com/Simon-Fontaine/codecracker/blob/main/console/main.py) et se situent entre les lignes 9 et 14.
+
+### Web
+
+Elles sont situées dans le fichier [app.py](https://github.com/Simon-Fontaine/codecracker/blob/main/web/app.py) et se situent entre les lignes 21 et 31.
 
 `code` (default: [0, 0, 0, 0]) _La longueur du code à trouver_
 
