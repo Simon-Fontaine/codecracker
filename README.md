@@ -10,7 +10,7 @@
     Projet Raspberry Pi créé dans le cadre du projet transversal de l'EPHEC
    </p>
 
-  <p align="center"; font-weight="bold"; text-decoration-line: "underline">🥈 2ème des votes</p>
+  <h4 align="center">🥈 2ème des votes</h4>
 </p>
 
 [![license - MIT](https://img.shields.io/badge/license-MIT-green?logo=github&logoColor=white)](https://choosealicense.com/licenses/mit/)
